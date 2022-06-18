@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Bài tập 5: Tính ngày tháng năm</h2>
+      <input
+        class="w-25"
+        type="number"
+        id="ngay"
+        min="1"
+        max="31"
+        placeholder="Nhập ngày.."
+      />
+      <input
+        class="w-25"
+        type="number"
+        id="thang"
+        min="1"
+        max="12"
+        placeholder="Nhập tháng.."
+      />
+      <input
+        class="w-25"
+        type="number"
+        id="nam"
+        min="1"
+        max="2022"
+        placeholder="nhập năm.."
+      />
+      <button class="btn btn-primary" id="btnHomQua">Ngày Hôm Qua</button>
+      <button class="btn btn-primary" id="btnMai">Ngày Mai</button>
+      <div class="alert alert-warning w-50 mt-3" id="ketQua_b5"></div>
+      <hr />
+      <h3>
+        Bài Tập 6:Viết chương trình nhập vào tháng, năm. Cho biết tháng đó có
+        bao nhiêu ngày
+      </h3>
+      <input
+        type="number"
+        id="inThang"
+        class="w-25"
+        placeholder="Nhập vào tháng.."
+      />
+      <input
+        type="number"
+        id="inNam"
+        class="w-25"
+        placeholder="Nhập vào năm.."
+      />
+      <button class="btn btn-primary m-1" id="btnTinhNgay">Tính ngày</button>
+      <div class="alert alert-warning mt-2 w-50" id="ketQua_b6"></div>
+      <hr />
+      <h3>
+        Bài Tập 7:Viết chương trình nhập vào số nguyên có 3 chữ số. In ra cách
+        đọc nó.
+      </h3>
+      <input
+        type="number"
+        id="so3ChuSo"
+        placeholder="Nhập số có 3 chữ số.."
+        class="w-25"
+      />
+      <button class="btn btn-primary m-2" id="btnDocSo">Đọc Số</button>
+      <div class="alert alert-warning w-50 mt-2" id="ketQua_b7"></div>
+      <hr />
+      <h3>Bài Tập 8: Tính khoảng cách theo tọa độ</h3>
+      <p>Sinh viên 1</p>
+      <input type="text" name="name" id="sv1" placeholder="Nhập tên.." />
+      <input type="number" id="toaDoX1" placeholder="Nhập tọa độ x.." />
+      <input type="number" id="toaDoY1" placeholder="Nhập tọa độ y.." />
+      <p>Sinh viên 2</p>
+      <input type="text" name="name" id="sv2" placeholder="Nhập tên.." />
+      <input type="number" id="toaDoX2" placeholder="Nhập tọa độ x.." />
+      <input type="number" id="toaDoY2" placeholder="Nhập tọa độ y.." />
+      <p>Sinh viên 3</p>
+      <input type="text" name="name" id="sv3" placeholder="Nhập tên.." />
+      <input type="number" id="toaDoX3" placeholder="Nhập tọa độ x.." />
+      <input type="number" id="toaDoY3" placeholder="Nhập tọa độ y.." />
+      <p>Trường Học</p>
+      <input type="number" id="toaDoX" placeholder="Nhập tọa độ x.." />
+      <input type="number" id="toaDoY" placeholder="Nhập tọa độ y.." />
+      <p>&jcirc;</p>
+      <button class="btn btn-success mt-2" id="btnTimToaDo">Tìm</button>
+      <div class="alert alert-warning mt-2 w-50" id="ketQua_b8"></div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./injs.js"></script>
+  </body>
+</html>
